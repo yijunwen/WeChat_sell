@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.DynamicUpdate;
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -19,6 +18,7 @@ import java.util.Date;
 @NoArgsConstructor
 @Table(name = "product_info")
 public class ProductInfo implements Serializable {
+
     @Id
     private String productId;
 
